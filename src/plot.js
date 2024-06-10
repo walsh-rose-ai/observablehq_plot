@@ -258,7 +258,7 @@ export function plot(options = {}) {
       // Warning: if you edit this, change defaultClassName.
       svg.append("style").text(
         `:where(.${className}) {
-  --plot-background: white;
+  background: var(--plot-background);
   display: block;
   height: auto;
   height: intrinsic;
